@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+/* Reset no CSS para limpar padding e margin - USE SEMPRE */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+/* header-principal */
+.header-principal{
+  width: 100%;
+  height: 10vh;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between; /* posiciona pela extremidade do elemento pai */
+  align-items: center; /*alinhamento vertical com base na altura do pai */
+  padding: 0 15px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin: 0 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.menu a:hover {
+  color: #DC143C;
+}
+ /* fim  header */
+
+ /* classes para as imagens de fundo */
+ .banner1 {background-image: url(../images/banner1.jpg);}
+ .banner2 {background-image: url(../images/banner2.jpg);}
+
+ /* container genérico */
+ .container{
+   width: 100%;
+   height: 100vh;   
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   padding: 0 20px 0 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+ }
+
+ .titulo-container {
+   font-size: 40px;
+   color: #fff;
+ }
+
+ .texto-container {
+   font-size: 25px;
+   color: #fff;
+   margin: 40px 0;
+   width: 50vw;
+ }
+
+ .botao {
+   text-decoration: none;
+   color: #fff;
+   font-size: 22px;
+   background-color: #DC143C;
+   padding: 22px;
+   border-radius: 5px;
+ }
+ /* fim da tela 1 */
+
+/******************** tela 2 *********************/
+.colunas {
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.produto {
+  width: 33vw;
+}
+
+.titulo-produto {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.texto-produto {
+  font-size: 16px;
+  color: #333;
+  margin: 20px 0;
+  width: 30vw;
+  line-height: 24px;
+}
+
+.produto img {
+ width: 100%;  
+}
+/******************** fim tela 2 ******************/
+
+
+/* tela 3 */
+.container-texto-direita {
+  align-items: flex-end;
+  text-align: right;
+  padding-right: 80px;  
+}
+
+/******************** fim tela 2 ******************/
+
+
+
+/* tela 4 */
+.tres-colunas{
+  width: 31vw;
+  padding: 0 4%;
+}
+
+/******************** fim tela 4 ******************/
+
+
+ /* rodape da pagina */
+ .rodape-pagina {
+   width: 100%;
+   height: 20vh;
+   padding: 0 15px;
+   background-color: #000;
+   color: #fff;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;  
+ }
+
+ .rede-social {
+   margin: 0 10px;
+   font-size: 22px;
+   color: #666;
+ }
+
+ .rede-social:hover{
+   color: #DC143C;
+}
